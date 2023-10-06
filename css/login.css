@@ -4,5 +4,32 @@ body {
 }
 
 .login {
-    color: aqua;
+    color: black;
+}
+
+.navv {
+    background-color: blueviolet;
+    padding: 30px;
+    
+}
+
+.apresentacao {
+    border: 2px solid #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao-links {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
 }
