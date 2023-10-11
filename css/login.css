@@ -1,29 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
 body {
-    background-color: black;
-    
+    background-color: #F0C9EA;
 }
 
-.login {
-    color: black;
+
+.button { 
+    border: 10px;
+    border-radius: 5px;
+    background-color: #FF2DAE;
+    color: white;
+    font-family:  'Krona One', sans-serif;
+    padding: 15px 30px ;
+    font-size: 20px;
+    cursor: pointer;
+    width: 400px;
+    text-decoration: none;
+    
+
 }
 
-.navv {
-    background-color: blueviolet;
-    padding: 30px;
-    
+.divv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .apresentacao {
-    border: 2px solid #22D4FD;
-    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    border: 1px solid ;
+    width: 1000px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 12px;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 150px 0;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+    box-shadow: 30px 25px black;
 }
 
 .apresentacao-links {
@@ -33,3 +53,61 @@ body {
     align-items: center;
     gap: 32px;
 }
+
+.componente {
+    border: 1px solid ;
+    width: 600px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: azure;
+    padding: 5px;
+}
+
+.componente2 {
+    border: 1px solid ;
+    width: 600px;
+    text-align: left;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: azure;
+}
+
+.acessoo {
+    width: 600px;
+    display: flex;
+    justify-content: start;
+}
+
+.titulo2 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img {
+    width: 500px;
+}
+
+.orkut {
+    color: #FF2DAE;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+}
+
+.criar {
+    color: #FF2DAE;
+}
+
+  .crie {
+    text-decoration: none;
+    color: #FF2DAE;
+  }
+
+  .agora {
+    list-style-type: none;
+    margin-right: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
