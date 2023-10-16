@@ -1,19 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
     
-    var form = document.getElementById('registrationForm');
+    let form = document.getElementById('registrationForm');
 
     
     form.addEventListener('submit', function (event) {
         event.preventDefault();
 
         
-        var nome = document.getElementById('nome').value;
-        var email = document.getElementById('email').value;
-        var senha = document.getElementById('senha').value;
-        var data = document.getElementById('data').value;
+        let nome = document.getElementById('nome').value;
+        let email = document.getElementById('email').value;
+        let senha = document.getElementById('senha').value;
+        let data = document.getElementById('data').value;
 
         
-        var usuario = {
+        let usuario = {
             nome: nome,
             email: email,
             senha: senha
