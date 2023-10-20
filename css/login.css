@@ -4,35 +4,41 @@ body {
     background-color: #F0C9EA;
 }
 
-
-.button { 
-    border: 10px;
-    border-radius: 5px;
-    background-color: #FF2DAE;
-    color: white;
-    font-family:  'Krona One', sans-serif;
-    padding: 15px 30px ;
-    font-size: 20px;
-    cursor: pointer;
-    width: 400px;
-    text-decoration: none;
-    
-
-}
-
-.divv {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.button {
+    border: 10px;
+    border-radius: 5px;
+    background-color: #FF2DAE;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 400px;
+    text-decoration: none;
+
+
+}
 
 .apresentacao {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: azure;
-    border: 1px solid ;
+    border: 1px solid;
     width: 1000px;
     text-align: center;
     border-radius: 8px;
@@ -46,16 +52,8 @@ body {
     box-shadow: 30px 25px black;
 }
 
-.apresentacao-links {
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 32px;
-}
-
-.componente {
-    border: 1px solid ;
+.form-input {
+    border: 1px solid;
     width: 600px;
     text-align: left;
     border-radius: 8px;
@@ -64,14 +62,6 @@ body {
     padding: 5px;
 }
 
-.componente2 {
-    border: 1px solid ;
-    width: 600px;
-    text-align: left;
-    border-radius: 8px;
-    font-size: 20px;
-    background-color: azure;
-}
 
 .acessoo {
     width: 600px;
@@ -79,7 +69,7 @@ body {
     justify-content: start;
 }
 
-.titulo2 {
+.titulo {
     display: flex;
     align-items: flex-start;
 }
@@ -94,20 +84,18 @@ body {
     padding-right: 0.2cm;
 }
 
-.criar {
+
+
+.crie {
+    text-decoration: none;
     color: #FF2DAE;
 }
 
-  .crie {
-    text-decoration: none;
-    color: #FF2DAE;
-  }
-
-  .agora {
+.Nao-tem-agora {
     list-style-type: none;
     margin-right: 50px;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}

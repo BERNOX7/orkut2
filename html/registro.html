@@ -3,42 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exemplo</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="../css/registro.css">
 </head>
-<body> <div class="divv"> 
-    <img class="img"src="2560px-Logo_ORKUT.svg.png" alt="">
+<body> <div class="logo-orkut"> 
+    <img class="img"src="../img/logo-login.svg.png" alt="">
      </div>
-     <div class="apresentacao-links">
-        <h2 class="subtitulo"></h2>
+     <div class="apresentacao-bloco-tudo">
+        <h2></h2>
         <div class="apresentacao">
-            <h1 class="titulo2">Registre-se</h1> 
-            <form class="componente" id="registrationForm">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" required>
-                
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" required>
-                
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" required>
-
-                <label for="senha">data de nascimento:</label>
-                <input type="password" id="data" required>
-                
-                
-            </form>
-            <div class="acessoo">
-                <input name="first" type="checkbox"> 
-                <label for="first">lembrar sempre do meu acesso</label>
-
-            </div>
-            <a class="button" href="paginainicial.html" type="submit">Registrar</a>
-          
-
-        </div>    
-    </div>
+            <h1>Registre-se</h1> 
+            <form action="paginainicial.html" id="registrationForm">
+                <div class="componente-dados-usuario">
+                    <label for="nome">Nome:</label>
+                    <input class="form-input" type="text" id="nome" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input class="form-input" type="email" id="email" required>
+                    
+                    <label for="senha">Senha:</label>
+                    <input class="form-input" type="password" id="senha" required>
     
-    <script src="registro.js"></script>
+                    <label for="senha">data de nascimento:</label>
+                    <input class="form-input" type="data" id="data" required>
+                </div>
+                <div class="lembrar-acesso">
+                    <input name="first" type="checkbox"> 
+                    <label for="first">lembrar sempre do meu acesso</label>
+    
+                </div>
+                <input class="button" type="submit" onclick="enviar(); return false">
+
+                
+                
+                <script src="../js/registro.js"></script>
+            </form>
+           
 </body>
 </html>

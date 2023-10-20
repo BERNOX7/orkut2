@@ -1,78 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="../css/paginainicial.css">
     <link rel="stylesheet" href="../css/paginainicial-responsive.css">
     <link rel="stylesheet" href="../css/reset.css">
-    <script src="https://kit.fontawesome.com/5aaf49845b.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <nav>
         <ul>
-          <img class="imagem"src="20220428113513_orkut-1-1-.png" alt="">
-        <div class="navbar"> 
-           <li><a href="#">Inicio</a></li> 
-           <li><a href="#">Perfil</a></li>
-           <li><a href="#">Comunidades</a></li>
-           <li><a href="#">Jogos</a></li>
-        </div>
-          <div class="barnav"> 
-            <input type="text" placeholder="Pesquisar..." name="search">
-            <button type="submit">Buscar</button>
-          </div>
-         <div class="mage"> 
-           <img class="imagem2"src="711769.png" alt="">
-         </div>
+            <img class="imagem-orkut" src="../img/logo-logado.png" alt="">
+            <div class="navbar">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Perfil</a></li>
+                <li><a href="#">Comunidades</a></li>
+                <li><a href="#">Jogos</a></li>
+            </div>
+            <div class="barnav">
+                <input type="text" placeholder="Pesquisar..." name="search">
+                <button type="submit">Buscar</button>
+            </div>
+            <div class="mage">
+                <img class="imagem-perfil" src="../img/logo-perfil.svg" alt="">
+            </div>
         </ul>
-      </nav>
+    </nav>
 
     <main class="container">
-        <aside class="foto">
-           <div class="foto_avatar">
-                <img 
-                    src="images (2).jfif.png" 
-                    height="150px"
-                    alt="" 
-                    srcset="">
-           </div>
-           <div class="foto_nome">
-               <h1><span class="orkut">GOCU PRETO</span></h1>
-           </div>
-           <div class="foto_tools">
-                <div class="foto_tools_menssagens">
+        <aside class="aba-perfil">
+            <div class="foto_avatar">
+                <img class="img-goku" src="../img/foto-perfil.png"  >
+            </div>
+            <div class="foto_nome">
+                <h1><span class="nome-gokupreto">GOCU PRETO</span></h1>
+            </div>
+            <div>
+                <div>
                     <i class="fa-solid fa-message"></i>
                     <a href="#" class="orkut_link">MENSSAGENS</a>
                 </div>
-                <div class="foto_tools_editar">
+                <div>
                     <i class="fa-solid fa-pen"></i>
                     <a href="#" class="orkut_link">EDITAR PERFIL</a>
                 </div>
-                <div class="foto_tools_albuns">
+                <div>
                     <i class="fa-solid fa-camera-retro"></i>
                     <a href="#" class="orkut_link">ALBUNS</a>
                 </div>
-                <div class="foto_tools_configuracao">
+                <div>
                     <i class="fa-solid fa-gear"></i>
                     <a href="#" class="orkut_link">CONFIGURAÇÃO</a>
                 </div>
-           </div>
+            </div>
         </aside>
-        <section class="descricao">
-            <h1><span class="orkut">CHAT</span></h1>
-            <a href="#" class="orkut_linkK">MENSSAGENS</a>
-            <input type="text" placeholder="comentar..." name="search">
-            
-            
-
+        <section class="aba-chat">
+            <h1><span class="chat">CHAT</span></h1>
+            <a href="#" class="chat-menssagens">MENSSAGENS <span class="numero-amigos">(123)</span></a>
+            <input class="campo-comentar" type="text" placeholder="comentar..." name="search">
         </section>
-        <div class="counter"> 
-
-        
-        </aside>
+        <section class="aba-amigos">
+            <h1><span class="chat">AMIGOS</span></h1>
+            <a href="#" class="chat-menssagens">MELHORES AMIGOS <span class="numero-amigos">(22)</span></a>
+            <div>
+                <div class="perfil1">
+                    <img class="img-amigos1" src="../img/foto-amigos.png">
+                    <h2>dzean Viniquius</h2>
+                </div>
+                <div class="perfil2">
+                     <img class="img-amigos1" src="../img/foto-amigos2.png">
+                      <h2>Sores Gaybriel</h2>
+                </div>
+                <a class="ver-todes" href="">(ver todos)</a>
+            </div>
+        </section>
     </main>
-        
+
+    <script src="https://kit.fontawesome.com/5aaf49845b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
